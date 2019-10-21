@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Data Event</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean" style="padding-bottom: 15px;margin-bottom: 15px;">
+            <div class="container"><a class="navbar-brand" href="#" style="color: rgb(244,71,107);">TAK Hunter</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div
+                    class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item" role="presentation"></li>
+                        <li class="nav-item" role="presentation"></li>
+                        <li class="nav-item" role="presentation"></li>
+                        <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#" style="background-color: rgb(244,71,107);color: rgb(255,255,255);">Event Organizer</a>
+                            <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">Peserta</a><a class="dropdown-item" role="presentation" href="#">Event Organizer</a><a class="dropdown-item" role="presentation" href="#">Third Item(hapus aja ini)</a></div>
+                        </li>
+                    </ul>
+            </div>
+    </div>
+    </nav>
+    </div>
+    <div id="wrapper"></div>
+    <div class="projects-clean"></div>
+    <div></div>
+    <div>
+        <div class="container">
+            <div class="row"><div class=col-md-4>
+    <div class="wrapper">
+            <!-- Sidebar Holder -->
+            <nav id="sidebar">
+                <div class="sidebar-header">
+                    <h3>Welcome !!!</h3>
+                    <strong>W</strong>
+                </div>
+
+                <ul class="list-unstyled components">
+<!--                     <li class="active">
+                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">
+                            <i class="glyphicon glyphicon-home"></i>
+                            Home
+                        </a>
+                        <ul class="collapse list-unstyled" id="homeSubmenu">
+                            <li><a href="#">Home 1</a></li>
+                            <li><a href="#">Home 2</a></li>
+                            <li><a href="#">Home 3</a></li>
+                        </ul>
+                    </li> -->
+                    <li>
+                        <a href="#">
+                            <i class="glyphicon glyphicon-briefcase"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="glyphicon glyphicon-link"></i>
+                            Data Event
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#event1Submenu" data-toggle="collapse" aria-expanded="false">
+                            <i class="glyphicon glyphicon-duplicate"></i>
+                            Nama Event 1
+                        </a>
+                        <ul class="collapse list-unstyled" id="event1Submenu">
+                            <li><a href="#">Laporan Penjualan</a></li>
+                            <li><a href="#">Data Pemesanan</a></li>
+                            <li><a href="#">Detail Event</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">
+                            <i class="glyphicon glyphicon-duplicate"></i>
+                            Nama Event 2
+                        </a>
+                        <ul class="collapse list-unstyled" id="pageSubmenu">
+                            <li><a href="#">Laporan Penjualan</a></li>
+                            <li><a href="#">Data Pemesanan</a></li>
+                            <li><a href="#">Detail Event</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Page Content Holder -->
+            <div id="content">
+
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+
+                        <div class="navbar-header">
+                            <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+                                <i class="glyphicon glyphicon-align-left"></i>
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- jQuery CDN -->
+         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+         <!-- Bootstrap Js CDN -->
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+         <script type="text/javascript">
+             $(document).ready(function () {
+                 $('#sidebarCollapse').on('click', function () {
+                     $('#sidebar').toggleClass('active');
+                 });
+             });
+         </script>
+</div>
+                <div class="col">
+                    <div class="card-group">
+                        <div class="card">
+                            <div class="card-group">
+                                <div class="card"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="text-align:center;">
+                        <h2 class="divider-style" style="margin-top: 0px;margin-bottom: 15px;"><span>Data Event</span></h2>
+                    </div>
+                    <div class="card-group">
+                        <div class="card"><img class="card-img-top w-100 d-block" src="assets/img/6.jpg">
+                            <div class="card-body" style="background-color: rgba(245,241,216,0.6);">
+                                <h4 class="card-title">Title</h4>
+                                <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p><button class="btn btn-primary" type="button" style="background-color: rgb(244,71,107);">More</button></div>
+                            <img
+                                class="card-img w-100 d-block" src="assets/img/6.jpg">
+                                <div class="card-body" style="background-color: rgba(245,241,216,0.6);">
+                                    <h4 class="card-title">Title</h4>
+                                    <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p><button class="btn btn-primary" type="button"
+                                        style="background-color: rgb(244,71,107);">More</button></div>
+                        </div>
+                        <div class="card"><img class="card-img-top w-100 d-block" src="assets/img/6.jpg">
+                            <div class="card-body" style="background-color: rgba(245,241,216,0.6);">
+                                <h4 class="card-title">Title</h4>
+                                <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p><button class="btn btn-primary" type="button" style="background-color: rgb(244,71,107);">More</button></div>
+                            <img
+                                class="card-img w-100 d-block" src="assets/img/6.jpg">
+                                <div class="card-body" style="background-color: rgba(245,241,216,0.6);">
+                                    <h4 class="card-title">Title</h4>
+                                    <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p><button class="btn btn-primary" type="button"
+                                        style="background-color: rgb(244,71,107);">More</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-dark">
+        <p class="copyright"><strong>Copyright @ 2019. All Right Reserved. TAK Hunter is a registered treademark</strong></p>
+        <footer></footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+</body>
+
+</html>
